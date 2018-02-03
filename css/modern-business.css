@@ -10,10 +10,13 @@ body {
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 10px;
   }
 }
-
+.row {
+  margin: 0;
+  padding: 0;
+}
 .navbar-nav {
   margin: 0 auto;
 }
@@ -25,6 +28,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+h3 .my-4 .product {
+  margin: 300px auto;
 }
 
 .portfolio-item {
