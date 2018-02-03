@@ -14,9 +14,12 @@ body {
   }
 }
 
+.navbar-nav {
+  margin: 0 auto;
+}
 .carousel-item {
   height: 65vh;
-  min-height: 300px;
+  min-height: 550px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
