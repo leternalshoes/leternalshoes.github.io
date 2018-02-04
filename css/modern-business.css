@@ -6,16 +6,22 @@
 
 body {
   padding-top: 54px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 10px;
-  }
+}
+a {
+  color: black;
 }
 .row {
   margin: 0;
   padding: 0;
+}
+.col-md-4 .small {
+  padding-top: 8px;
 }
 nav {
   background-color: white!important;
@@ -28,8 +34,8 @@ nav {
   color: black!important;
 }
 .carousel-item {
-  height: 65vh;
-  min-height: 550px;
+  height: 475px;
+  min-height: 475px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
