@@ -17,8 +17,15 @@ body {
   margin: 0;
   padding: 0;
 }
+nav {
+  background-color: white!important;
+}
 .navbar-nav {
   margin: 0 auto;
+}
+.nav-link {
+  padding: 10px 3rem!important;
+  color: black!important;
 }
 .carousel-item {
   height: 65vh;
@@ -30,12 +37,19 @@ body {
   background-size: cover;
 }
 #product {
-  margin-top: 100px!important;
-  margin-bottom: 100px!important;
+  margin-top: 70px!important;
+  margin-bottom: 70px!important;
 }
 hr {
   border: 2px solid black;
 }
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+footer {
+  color: white;
+}
+.m-0 {
+  margin-top: 100px!important;
 }
