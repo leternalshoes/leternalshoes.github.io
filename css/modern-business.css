@@ -5,13 +5,39 @@
  */
 
 body {
-  padding-top: 54px;
+  padding-top: 10px;
   font-family: 'Libre Baskerville', serif;
 }
+nav {
+  background-color: #343a40!important;
+}
+.navbar-nav {
+  margin: 0 auto;
+}
+.nav-link {
+  padding: 10px 3rem!important;
+  color: white!important;
+}
 
+.carousel-item {
+  height: 475px;
+  min-height: 475px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 @media (min-width: 992px) {
   body {
     padding-top: 10px;
+}
+nav {
+  background-color: white!important;
+}
+.nav-link {
+  padding: 10px 3rem!important;
+  color: black!important;
 }
 a {
   color: black;
@@ -23,16 +49,7 @@ a {
 .col-md-4 .small {
   padding-top: 8px;
 }
-nav {
-  background-color: white!important;
-}
-.navbar-nav {
-  margin: 0 auto;
-}
-.nav-link {
-  padding: 10px 3rem!important;
-  color: black!important;
-}
+
 .carousel-item {
   height: 475px;
   min-height: 475px;
