@@ -84,6 +84,9 @@ a {
 footer a {
   color: white;
 }
+.bg-dark {
+  background-color: #222!important;
+}
 .row {
   margin: 0;
   padding: 0;
