@@ -10,13 +10,16 @@ body {
   font-family: 'Libre Baskerville', serif;
 }
 nav {
-  background-color: #343a40!important;
+  background-color: #000!important;
 }
 a {
   color: black;
 }
 a:hover {
   color: grey;
+}
+footer a {
+  color: white;
 }
 .navbar-nav {
   margin: 0 auto;
@@ -51,6 +54,10 @@ a:hover {
 }
 footer {
   color: white;
+  background-color: #000!important;
+}
+.bg-dark {
+  background-color: #000!important;
 }
 .pb-5, .py-5 {
   margin-top: 100px!important;
@@ -64,6 +71,9 @@ footer {
     background-size: 100%, 100%;
     border-radius: 50%;
     border: 1px solid black;
+  }
+  #contact {
+    font-size:120%!important;
   }
 
 /*Desktop Version Only*/
@@ -80,9 +90,6 @@ nav {
 }
 a {
   color: black;
-}
-footer a {
-  color: white;
 }
 .bg-dark {
   background-color: #222!important;
@@ -121,8 +128,11 @@ footer {
 .m-0 {
   margin-top: 100px!important;
 }
+.bg-dark {
+  background-color: #000!important;
+}
 /*Page About*/
-.jumbotron1 {  
+.jumbotron1 {
   padding-top: 120px;
   padding-bottom: 100px;
   margin-bottom: 0;
